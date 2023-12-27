@@ -29,7 +29,7 @@ I've included `map.csv` incase that's useful for your data processing context.
 
 
 ## Maintenance
-I'll aim to update this map at the beginning of each annual-quater.
+I'll aim to update this map at the beginning of each annual-quarter.
 Specifically:
 - 01 January
 - 01 April
