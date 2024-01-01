@@ -43,4 +43,4 @@ Send it over to: [onassar@gmail.com](mailto:onassar@gmail.com)
 
 ## Notes to self:
 - JSON converter: https://www.convertcsv.com/csv-to-json.htm
-- Query: ```SELECT `query`, `suggestion` FROM `searchSuggestions` WHERE `suggestion` != '' ORDER BY `query`;```
+- Query: ```SELECT `query`, REPLACE(REPLACE(REPLACE(`suggestion`, '¨', ''), ',', ''), '`', '') AS suggestion FROM `searchSuggestions` WHERE `suggestion` != '' ORDER BY `query`;```
